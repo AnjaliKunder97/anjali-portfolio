@@ -52,6 +52,33 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
+    title: 'thinkers.ai (Legacy Vue/Nuxt-Version)',
+    meta: 'Frontend Developer · Vorgänger-Plattform · Leipzig',
+    stack: ['Vue.js', 'Nuxt.js', 'JavaScript'],
+    paragraphs: [
+      'Vor der Umstellung auf React lief thinkers.ai als Vue.js/Nuxt-Anwendung. Diese frühere Version bot bereits zentrale Funktionen wie Mehrfachauswahl von Themen, Keyword-Suche in Überschriften, Heatmap-Visualisierungen zu Trendthemen und KI-generierte Artikel-Zusammenfassungen.',
+      'Ich habe die spätere Migration dieser Vue/Nuxt-Basis zu React architektonisch begleitet und die Qualitätssicherung eines KI-gestützten Migrationstools (Lovable) verantwortet — von der Architekturentscheidung bis zur Überprüfung des generierten Codes.',
+    ],
+    screenshots: [
+      {
+        src: (import.meta.env.BASE_URL + 'images/legacy-topic-selection.png'),
+        alt: 'Mehrfachauswahl von Themen auf der Startseite der Vue/Nuxt-Version',
+        caption: '// Themenauswahl — Mehrfachauswahl nach Sektor & Use Case',
+      },
+      {
+        src: (import.meta.env.BASE_URL + 'images/legacy-heatmap.png'),
+        alt: 'Heatmap der 12 meistdiskutierten Themen der letzten sieben Tage',
+        caption: '// Heatmap — Trendthemen der letzten 7 Tage',
+      },
+      {
+        src: (import.meta.env.BASE_URL + 'images/legacy-ai-summary.png'),
+        alt: 'KI-generierte Zusammenfassung von Artikeln auf der Ergebnisseite',
+        caption: '// KI-Zusammenfassung — automatisch generiert aus gefilterten Artikeln',
+      },
+    ],
+    reverse: true,
+  },
+  {
     title: 'rooom AG',
     meta: 'Werkstudentin Softwareentwicklung · 01/2022 – 01/2023 · Jena',
     stack: ['Vue 3', 'Composition API', 'Pinia', 'TypeScript'],
