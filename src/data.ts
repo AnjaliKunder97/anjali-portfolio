@@ -35,17 +35,17 @@ export const caseStudies: CaseStudy[] = [
     ],
     screenshots: [
       {
-        src: '/images/my-themenprofile.jpg',
+        src: (import.meta.env.BASE_URL + 'images/my-themenprofile.jpg'),
         alt: 'Themenprofil-Übersicht mit Nutzungsstatistiken pro Profil',
         caption: '// Themenprofile — Übersicht mit Gesamteinträgen & Aktivität',
       },
       {
-        src: '/images/chat-wizard.jpg',
+        src: (import.meta.env.BASE_URL + 'images/chat-wizard.jpg'),
         alt: 'Mehrstufiger Chat-Assistent zur Konfiguration eines neuen Themenprofils',
         caption: '// Konfigurations-Assistent — Schritt 1 von 7',
       },
       {
-        src: '/images/bookmarks.jpg',
+        src: (import.meta.env.BASE_URL + 'images/bookmarks.jpg'),
         alt: 'Lesezeichen-Ansicht mit Kategorie-Filtern und Projektkarten',
         caption: '// Lesezeichen — Kategoriefilter & strukturierte Projektkarten',
       },
