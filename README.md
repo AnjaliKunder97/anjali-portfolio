@@ -49,8 +49,3 @@ images/ - project screenshots
 ## Updating content
 
 Everything text-based (metrics, case study copy, skills, timeline) lives in `src/data.ts` — edit that file rather than the components to update content. To add or swap screenshots, drop new images into `public/images/` and reference them in `data.ts` as `/images/your-file.jpg`.
-
-
-
-https://github.com/AnjaliKunder97/product-catalog
-https://anjalikunder97.github.io/product-catalog/
