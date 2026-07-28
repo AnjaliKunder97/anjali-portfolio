@@ -17,7 +17,8 @@ export interface CaseStudy {
   inlineStats?: { value: string; label: string }[]
   screenshots?: Screenshot[]
   placeholderNote?: string
-  reverse?: boolean
+  reverse?: boolean,
+  links?: { label: string; href: string }[]
 }
 
 export interface SkillGroup {

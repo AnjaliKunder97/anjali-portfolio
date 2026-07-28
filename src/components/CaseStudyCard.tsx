@@ -37,6 +37,21 @@ export default function CaseStudyCard({ study }: Props) {
               ))}
             </div>
           )}
+          {study.links && (
+            <div className="case-links">
+              {study.links.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-ghost btn-small"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          )}
         </div>
         <div className="case-shots">
           {study.screenshots?.map((shot) => (

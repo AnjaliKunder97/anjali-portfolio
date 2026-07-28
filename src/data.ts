@@ -99,6 +99,34 @@ export const caseStudies: CaseStudy[] = [
     ],
     placeholderNote: 'Screenshots nicht mehr verfügbar — Projekt von 2019/2020.',
   },
+  {
+    title: 'Product Catalog & Checkout',
+    meta: 'Eigenes Projekt · Skill-Vertiefung',
+    stack: ['Angular', 'TypeScript', 'Storybook'],
+    paragraphs: [ 
+      'Eine E-Commerce-Oberfläche mit Produktkatalog, Warenkorb und Checkout-Flow — gezielt gebaut, um eine konkrete Lücke aus meiner Jobsuche zu schließen: Erfahrung mit Checkout-Flows und State-Management in Angular, wie sie in Stellenausschreibungen wie bei ifm explizit gefordert war.',
+      'Die Produktdaten stammen aus der Fake Store API: Nutzer:innen können Produkte durchsuchen, nach Kategorie filtern und nach Preis oder Bewertung sortieren, mit debounced Suche und eigener Detailseite pro Produkt (Routing, Route-Parameter). Den Warenkorb-Zustand verwaltet ein NgRx Signal Store — die schlankere, aktuellere Alternative zum klassischen NgRx-Setup, die dennoch dieselben Grundprinzipien von State-Management demonstriert.',
+      "Das Mock-Checkout-Formular nutzt Angular Reactive Forms mit echter Validierung — der Teil, der direkt dem 'Checkout-Flows'-Anforderungsprofil entspricht. Ladezustände, leere Zustände und Fehlerzustände sind bewusst mitgedacht, nicht nur der 'Happy Path'."
+    ],
+    links: [
+      { label: 'GitHub ↗', href: 'https://github.com/anjalikunder97/...' },
+      { label: 'Live Demo ↗', href: 'https://anjalikunder97.github.io/product-catalog/' } // if deployed
+    ],
+  },
+  {
+    title: 'Kanban Board (Echtzeit-Kollaboration)',
+    meta: 'Eigenes Projekt · Vue 3 / Nuxt.js',
+    stack: ['Vue 3', 'Nuxt.js', 'Pinia','WebSockets'],
+    paragraphs: [ 
+      'Ein Echtzeit-Kanban-Board im Stil von Trello — bewusst gebaut, um zwei konkrete Lücken zu schließen: tiefere Vue-3-Praxis (Composition API, Pinia, Nuxt.js) und praktische Erfahrung mit Echtzeit-Funktionen über WebSockets, ein Anforderungsprofil, das mir in Stellenausschreibungen wie bei Atolls explizit begegnet ist.',
+      'Mehrere Nutzer:innen können gleichzeitig an einem Board arbeiten: Karten verschieben, Spalten anlegen und Änderungen live bei allen Beteiligten sehen — ohne Neuladen der Seite. Die Umsetzung musste optimistische UI-Updates und den Umgang mit gleichzeitigen Änderungen mehrerer Nutzer:innen berücksichtigen, technisch anspruchsvoller als ein klassisches CRUD-Interface.',
+      'Der Fokus liegt bewusst auf dem Frontend: Ein schlanker Relay-Server (~40 Zeilen, ohne Datenbank, ohne Authentifizierung) leitet Board-Änderungen zwischen verbundenen Clients weiter — genug, um Echtzeit-Sync ehrlich zu demonstrieren, ohne das Projekt zu einem Backend-Vorhaben auszuweiten.'
+     ],
+     links: [
+      { label: 'GitHub ↗', href: 'https://github.com/anjalikunder97/...' },
+      //{ label: 'Live Demo ↗', href: '...' }  if deployed
+    ],
+  },
 ]
 
 export const skillGroups: SkillGroup[] = [

@@ -15,6 +15,9 @@ export default function Hero() {
           <a className="btn btn-primary" href="mailto:kunderanjali@gmail.com">
             E-Mail schreiben
           </a>
+          <a className="btn btn-ghost" href="https://github.com/anjalikunder97" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
           <a
             className="btn btn-ghost"
             href="https://www.linkedin.com/in/anjali-kunder-92649310b/"

@@ -10,6 +10,9 @@ export default function Footer() {
         <div className="footer-links">
           <a href="mailto:kunderanjali@gmail.com">kunderanjali@gmail.com</a>
           <a href="tel:+4917674550364">+49 176 74550364</a>
+          <a href="https://github.com/anjalikunder97" target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
           <a
             href="https://www.linkedin.com/in/anjali-kunder-92649310b/"
             target="_blank"

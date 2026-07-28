@@ -305,6 +305,20 @@ h2.section-title {
   font-size: 15px;
   display: block;
 }
+.case-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.case-links .btn-ghost {
+  color: var(--text-dark);
+  border-color: var(--line);
+}
+.case-links .btn-ghost:hover {
+  border-color: var(--amber-deep);
+  color: var(--amber-deep);
+}
 .case-shots {
   display: flex;
   flex-direction: column;
