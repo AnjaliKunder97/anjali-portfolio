@@ -2,6 +2,10 @@
 
 A one-page portfolio built with React, TypeScript, and Vite.
 
+## Live Demo
+
+https://anjalikunder97.github.io/anjali-portfolio/
+
 ## Other Projects
 
 - **[Product Catalog + Cart](https://github.com/AnjaliKunder97/product-catalog)** ([live demo](https://anjalikunder97.github.io/product-catalog/)) — Angular 19, NgRx Signal Store, Reactive Forms checkout, deployed via GitHub Actions CI/CD
