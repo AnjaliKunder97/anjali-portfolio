@@ -100,6 +100,20 @@ export const caseStudies: CaseStudy[] = [
     placeholderNote: 'Screenshots nicht mehr verfügbar — Projekt von 2019/2020.',
   },
   {
+    title: 'Studio Booking Platform',
+    meta: 'Eigenes Projekt · Full-Stack',
+    stack: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'JWT-Auth'],
+    paragraphs: [
+      'Ein Buchungssystem für Ressourcen wie Proberäume oder Equipment — bewusst als vollständiges Full-Stack-Projekt aufgesetzt, um eine Lücke zu schließen, die mir in Stellenausschreibungen wiederholt begegnet ist: echte Backend-Erfahrung neben meiner Frontend-Expertise, inklusive Authentifizierung, relationalem Datenmodell und einer API, die ich selbst entworfen und implementiert habe.',
+      'Das Backend (FastAPI, PostgreSQL, SQLAlchemy) bietet echte JWT-basierte Authentifizierung mit gehashten Passwörtern sowie ein relationales Schema aus Nutzer:innen, Ressourcen und Buchungen. Der interessante Teil: Überschneidende Buchungen für dieselbe Ressource werden serverseitig zuverlässig abgelehnt — keine Simulation, sondern eine echte Prüfung auf Zeitraum-Konflikte.',
+      'Bewusst schlank gehalten: keine Zahlungsabwicklung, keine Admin-Rollen-Trennung und die Konflikterkennung läuft aktuell auf Anwendungsebene statt über eine datenbankseitige Exclusion-Constraint — der nächste sinnvolle Schritt für eine produktionsreife Version.',
+    ],
+    links: [
+      { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/studio-booking-platform' },
+      { label: 'Live Demo ↗', href: 'https://studio-booking-platform-1.onrender.com' },
+    ],
+  },
+  {
     title: 'Product Catalog & Checkout',
     meta: 'Eigenes Projekt · Skill-Vertiefung',
     stack: ['Angular', 'TypeScript', 'Storybook'],
