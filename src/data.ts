@@ -124,7 +124,7 @@ export const caseStudies: CaseStudy[] = [
      ],
      links: [
       { label: 'GitHub ↗', href: 'https://github.com/anjalikunder97/...' },
-      //{ label: 'Live Demo ↗', href: '...' }  if deployed
+      { label: 'Live Demo ↗', href: 'https://kanban-board-fawn-six.vercel.app/' }
     ],
   },
 ]
