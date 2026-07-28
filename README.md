@@ -8,8 +8,16 @@ https://anjalikunder97.github.io/anjali-portfolio/
 
 ## Other Projects
 
-- **[Product Catalog + Cart](https://github.com/AnjaliKunder97/product-catalog)** ([live demo](https://anjalikunder97.github.io/product-catalog/)) — Angular 19, NgRx Signal Store, Reactive Forms checkout, deployed via GitHub Actions CI/CD
-- **[Real-Time Collaborative Kanban Board](https://github.com/AnjaliKunder97/kanban-board)** ([live demo](https://kanban-board-fawn-six.vercel.app/)) — Vue 3, Nuxt, Pinia, real-time multi-client sync via Socket.io
+These are referenced in `data.ts` under the "Eigene Projekte" case
+studies, alongside their GitHub/live links:
+ 
+- **Product Catalog & Checkout** (Angular, TypeScript, NgRx Signal Store)
+  — GitHub: https://github.com/AnjaliKunder97/product-catalog
+- **Kanban Board (Echtzeit-Kollaboration)** (Vue 3, Nuxt.js, Pinia,
+  WebSockets) — GitHub: https://github.com/AnjaliKunder97/kanban-board
+- **Studio Booking Platform** (React, TypeScript, FastAPI, PostgreSQL)
+  — GitHub: https://github.com/AnjaliKunder97/studio-booking-platform
+  — Live: https://studio-booking-platform-1.onrender.com
 
 ## Run locally
 npm install
