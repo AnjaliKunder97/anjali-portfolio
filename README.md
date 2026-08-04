@@ -14,7 +14,9 @@ studies, alongside their GitHub/live links:
 - **Product Catalog & Checkout** (Angular, TypeScript, NgRx Signal Store)
   — GitHub: https://github.com/AnjaliKunder97/product-catalog
 - **Kanban Board (Echtzeit-Kollaboration)** (Vue 3, Nuxt.js, Pinia,
-  WebSockets) — GitHub: https://github.com/AnjaliKunder97/kanban-board
+  WebSockets)
+  — GitHub: https://github.com/AnjaliKunder97/kanban-board
+  — Live: https://kanban-board-fawn-six.vercel.app/
 - **Studio Booking Platform** (React, TypeScript, FastAPI, PostgreSQL)
   — GitHub: https://github.com/AnjaliKunder97/studio-booking-platform
   — Live: https://studio-booking-platform-1.onrender.com
