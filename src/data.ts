@@ -124,7 +124,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     links: [
       { label: 'GitHub ↗', href: 'https://github.com/anjalikunder97/...' },
-      { label: 'Live Demo ↗', href: 'https://anjalikunder97.github.io/product-catalog/' } // if deployed
+     // { label: 'Live Demo ↗', href: 'https://anjalikunder97.github.io/product-catalog/' }  if deployed
     ],
   },
   {
