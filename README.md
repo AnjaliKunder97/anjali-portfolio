@@ -13,7 +13,6 @@ studies, alongside their GitHub/live links:
  
 - **Product Catalog & Checkout** (Angular, TypeScript, NgRx Signal Store)
   — GitHub: https://github.com/AnjaliKunder97/product-catalog
-  — Live: https://anjalikunder97.github.io/product-catalog/
 - **Kanban Board (Echtzeit-Kollaboration)** (Vue 3, Nuxt.js, Pinia,
   WebSockets)
   — GitHub: https://github.com/AnjaliKunder97/kanban-board
