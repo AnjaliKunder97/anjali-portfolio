@@ -123,7 +123,7 @@ export const caseStudies: CaseStudy[] = [
       "Das Mock-Checkout-Formular nutzt Angular Reactive Forms mit echter Validierung — der Teil, der direkt dem 'Checkout-Flows'-Anforderungsprofil entspricht. Ladezustände, leere Zustände und Fehlerzustände sind bewusst mitgedacht, nicht nur der 'Happy Path'."
     ],
     links: [
-      { label: 'GitHub ↗', href: 'https://github.com/anjalikunder97/...' },
+      { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/product-catalog' },
       { label: 'Live Demo ↗', href: 'https://anjalikunder97.github.io/product-catalog/' } // if deployed
     ],
   },
@@ -137,7 +137,7 @@ export const caseStudies: CaseStudy[] = [
       'Der Fokus liegt bewusst auf dem Frontend: Ein schlanker Relay-Server (~40 Zeilen, ohne Datenbank, ohne Authentifizierung) leitet Board-Änderungen zwischen verbundenen Clients weiter — genug, um Echtzeit-Sync ehrlich zu demonstrieren, ohne das Projekt zu einem Backend-Vorhaben auszuweiten.'
      ],
      links: [
-      { label: 'GitHub ↗', href: 'https://github.com/anjalikunder97/...' },
+      { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/kanban-board' },
       { label: 'Live Demo ↗', href: 'https://kanban-board-fawn-six.vercel.app/' }
     ],
   },
