@@ -109,8 +109,7 @@ export const caseStudies: CaseStudy[] = [
       'Bewusst schlank gehalten: keine Zahlungsabwicklung, keine Admin-Rollen-Trennung und die Konflikterkennung läuft aktuell auf Anwendungsebene statt über eine datenbankseitige Exclusion-Constraint — der nächste sinnvolle Schritt für eine produktionsreife Version.',
     ],
     links: [
-      { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/studio-booking-platform' },
-      { label: 'Live Demo ↗', href: 'https://studio-booking-platform-1.onrender.com' },
+      { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/studio-booking-platform' }
     ],
   },
   {

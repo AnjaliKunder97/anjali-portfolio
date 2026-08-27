@@ -20,7 +20,6 @@ studies, alongside their GitHub/live links:
   — Live: https://kanban-board-fawn-six.vercel.app/
 - **Studio Booking Platform** (React, TypeScript, FastAPI, PostgreSQL)
   — GitHub: https://github.com/AnjaliKunder97/studio-booking-platform
-  — Live: https://studio-booking-platform-1.onrender.com
 
 ## Run locally
 npm install
