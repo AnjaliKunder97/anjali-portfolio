@@ -100,6 +100,19 @@ export const caseStudies: CaseStudy[] = [
     placeholderNote: 'Screenshots nicht mehr verfügbar — Projekt von 2019/2020.',
   },
   {
+    title: 'Event Registration API',
+    meta: 'Eigenes Projekt · Backend',
+    stack: ['Java 21', 'Spring Boot 3', 'Spring Security (JWT)', 'PostgreSQL', 'Flyway', 'Testcontainers'],
+    paragraphs: [
+      'Eine REST-API für Event-Anmeldungen — bewusst als eigenständiges Backend-Projekt in Java aufgesetzt, um neben meiner Frontend-Expertise echte Backend-Erfahrung zu zeigen: Authentifizierung, relationales Datenmodell und eine API, die ich selbst entworfen und implementiert habe.',
+      'Die Anwendung nutzt Spring Boot 3 mit JWT-basierter Authentifizierung über Spring Security und trennt die Rollen User und Admin. Der interessante Teil: Ist ein Event ausgebucht, landen Teilnehmende auf einer Warteliste und rücken automatisch nach, sobald ein Platz frei wird. Pessimistisches Row-Locking verhindert dabei Überbuchungen bei gleichzeitigen Anmeldungen.',
+      'Das Datenbankschema wird mit Flyway-Migrationen verwaltet, die API ist mit OpenAPI/Swagger dokumentiert, und Integrationstests laufen mit Testcontainers gegen eine echte PostgreSQL-Datenbank statt gegen eine In-Memory-Simulation.',
+    ],
+    links: [
+      { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/event-registration-api' }
+    ],
+  },
+  {
     title: 'Studio Booking Platform',
     meta: 'Eigenes Projekt · Full-Stack',
     stack: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'JWT-Auth'],
