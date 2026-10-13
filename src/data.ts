@@ -22,11 +22,12 @@ export const metrics: Metric[] = [
 export const caseStudies: CaseStudy[] = [
   {
     title: 'thinkers.ai',
-    meta: 'Frontend Developer · 01/2023 – heute · Leipzig',
+    meta: 'Frontend Developer · 01/2023 – 08/2026 · Leipzig',
     stack: ['React', 'TypeScript', 'Tailwind CSS', 'REST APIs'],
     paragraphs: [
       'thinkers.ai ist eine KI-gestützte Markt- und Themenintelligenz-Plattform: Nutzer:innen konfigurieren „Themenprofile" (z. B. Bauprojekte, Ausschreibungen, Personalwechsel), das System durchsucht laufend externe Quellen und liefert strukturierte, filterbare Ergebnisse — von Projektkarten bis zu automatisch generierten Mindmaps.',
-      'Ich leite die Entwicklung zentraler Frontend-Bereiche: die Themenprofil-Übersicht und -Konfiguration, das Lesezeichen- und Filtersystem, die Mindmap-Visualisierung sowie Account- und Abrechnungseinstellungen. Dabei arbeite ich eng mit einem 7- bis 10-köpfigen Team aus Design, Backend und Product zusammen.',
+      'Ich leitete die Entwicklung zentraler Frontend-Bereiche: die Themenprofil-Übersicht und -Konfiguration, das Lesezeichen- und Filtersystem, die Mindmap-Visualisierung sowie Account- und Abrechnungseinstellungen. Dabei arbeitete ich eng mit einem 7- bis 10-köpfigen Team aus Design, Backend und Product zusammen.',
+      'Zu meinen Schwerpunkten gehörten eine LLM-Chat-Oberfläche mit Streaming-Antworten (Ladezustand, klare Fehlermeldung mit erneutem Versuch, Vitest-Tests), die die Nutzerinteraktion um 50 % steigerte, Performance-Verbesserungen für große Datenmengen (Routing, Filter, intelligente Suche, Paginierung, Stepper) sowie die Einführung von Vitest, TDD und verbindlichen Code Reviews, die die Produktionsfehler um 30 % senkten.'
     ],
     inlineStats: [
       { value: '1.000', label: 'aktive Nutzer:innen' },
@@ -58,6 +59,7 @@ export const caseStudies: CaseStudy[] = [
     paragraphs: [
       'Vor der Umstellung auf React lief thinkers.ai als Vue.js/Nuxt-Anwendung. Diese frühere Version bot bereits zentrale Funktionen wie Mehrfachauswahl von Themen, Keyword-Suche in Überschriften, Heatmap-Visualisierungen zu Trendthemen und KI-generierte Artikel-Zusammenfassungen.',
       'Ich habe die spätere Migration dieser Vue/Nuxt-Basis zu React architektonisch begleitet und die Qualitätssicherung eines KI-gestützten Migrationstools (Lovable) verantwortet — von der Architekturentscheidung bis zur Überprüfung des generierten Codes.',
+      'Ein Beispiel aus der Qualitätssicherung: Lovable generierte das Formular zum Erstellen eines Themenprofils ohne Validierung und ohne echte Backend-Anbindung, mit einer Struktur, die von unseren übrigen Formularen abwich. Ich passte es an unser Formularmuster an, ergänzte Validierung und API-Anbindung sowie Info-Buttons für einzelne Felder und schrieb Unit- und Integrationstests.'
     ],
     screenshots: [
       {
