@@ -124,6 +124,18 @@ export const caseStudies: CaseStudy[] = [
     links: [
       { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/studio-booking-platform' }
     ],
+    screenshots: [
+      {
+        src: (import.meta.env.BASE_URL + 'images/studio-booking-form.png'),
+        alt: 'Buchungsansicht mit Ressourcenliste, Buchungsformular und eigenen Buchungen',
+        caption: '// Buchung — Ressource wählen, Zeitraum festlegen, eigene Buchungen verwalten',
+      },
+      {
+        src: (import.meta.env.BASE_URL + 'images/studio-booking-conflictcheck.png'),
+        alt: 'Fehlermeldung bei einer Buchung, die sich mit einer bestehenden Buchung überschneidet',
+        caption: '// Konfliktprüfung — überschneidende Buchungen werden serverseitig abgelehnt',
+      },
+    ],
   },
   {
     title: 'Product Catalog & Checkout',
@@ -151,6 +163,13 @@ export const caseStudies: CaseStudy[] = [
      links: [
       { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/kanban-board' },
       { label: 'Live Demo ↗', href: 'https://kanban-board-fawn-six.vercel.app/' }
+    ],
+    screenshots: [
+      {
+        src: (import.meta.env.BASE_URL + 'images/kanban-board.png'),
+        alt: 'Kanban-Board mit den Spalten To Do, In Progress und Done',
+        caption: '// Board — Spalten & Karten, live synchronisiert über eine teilbare Board-ID',
+      },
     ],
   },
 ]
