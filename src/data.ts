@@ -143,12 +143,39 @@ export const caseStudies: CaseStudy[] = [
     stack: ['Angular', 'TypeScript', 'Storybook'],
     paragraphs: [ 
       'Eine E-Commerce-Oberfläche mit Produktkatalog, Warenkorb und Checkout-Flow — gezielt gebaut, um eine konkrete Lücke aus meiner Jobsuche zu schließen: Erfahrung mit Checkout-Flows und State-Management in Angular, wie sie in Stellenausschreibungen wie bei ifm explizit gefordert war.',
-      'Die Produktdaten stammen aus der Fake Store API: Nutzer:innen können Produkte durchsuchen, nach Kategorie filtern und nach Preis oder Bewertung sortieren, mit debounced Suche und eigener Detailseite pro Produkt (Routing, Route-Parameter). Den Warenkorb-Zustand verwaltet ein NgRx Signal Store — die schlankere, aktuellere Alternative zum klassischen NgRx-Setup, die dennoch dieselben Grundprinzipien von State-Management demonstriert.',
+      'Die Produktdaten stammen aus der Fake Store API: Nutzer:innen können Produkte durchsuchen, nach Kategorie filtern und sortieren (Standard, Preis aufsteigend, Preis absteigend, Beste Bewertung), mit debounced Suche und eigener Detailseite pro Produkt (Routing, Route-Parameter). Den Warenkorb-Zustand verwaltet ein NgRx Signal Store — die schlankere, aktuellere Alternative zum klassischen NgRx-Setup, die dennoch dieselben Grundprinzipien von State-Management demonstriert.',
       "Das Mock-Checkout-Formular nutzt Angular Reactive Forms mit echter Validierung — der Teil, der direkt dem 'Checkout-Flows'-Anforderungsprofil entspricht. Ladezustände, leere Zustände und Fehlerzustände sind bewusst mitgedacht, nicht nur der 'Happy Path'."
     ],
     links: [
       { label: 'GitHub ↗', href: 'https://github.com/AnjaliKunder97/product-catalog' },
       { label: 'Live Demo ↗', href: 'https://anjalikunder97.github.io/product-catalog/' } // if deployed
+    ],
+    screenshots: [
+      {
+        src: (import.meta.env.BASE_URL + 'images/product-catalog-sort-filter.png'),
+        alt: 'Produktkatalog mit Suchfeld, Kategoriefilter und geöffneter Sortierauswahl',
+        caption: '// Katalog — Suche, Kategoriefilter & Sortierung (Standard, Preis aufsteigend, Preis absteigend, Beste Bewertung)',
+      },
+      {
+        src: (import.meta.env.BASE_URL + 'images/product-catalog-productdetail.png'),
+        alt: 'Produktdetailseite mit Bild, Preis, Bewertung und „Add to Cart“-Button',
+        caption: '// Produktdetail — eigene Route pro Produkt über Route-Parameter',
+      },
+      {
+        src: (import.meta.env.BASE_URL + 'images/product-catalog-cart-products.png'),
+        alt: 'Warenkorb mit einem Produkt, Mengenfeld und Gesamtsumme',
+        caption: '// Warenkorb — Zustand im NgRx Signal Store',
+      },
+      {
+        src: (import.meta.env.BASE_URL + 'images/product-catalog-validation-error1.png'),
+        alt: 'Checkout-Formular mit Validierungsfehler bei ungültiger E-Mail-Adresse',
+        caption: '// Checkout — Reactive Forms mit Validierung der Kontaktdaten',
+      },
+      {
+        src: (import.meta.env.BASE_URL + 'images/product-catalog-validation-error2.png'),
+        alt: 'Zahlungsbereich des Checkouts mit Validierungsfehlern für Kartennummer, Ablaufdatum und CVV',
+        caption: '// Checkout — Validierung der (Demo-)Zahlungsdaten',
+      },
     ],
   },
   {
